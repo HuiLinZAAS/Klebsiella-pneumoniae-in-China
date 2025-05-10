@@ -1,0 +1,358 @@
+=== Analysis results for sample size 50 ===
+
+AMRscore ANOVA results (Sample size 50): F-statistic = 7111.814243276403, p-value = 0.0 -> Significant
+AMRscore Kruskal-Wallis results (Sample size 50): H-statistic = 4160.795986527305, p-value = 0.0 -> Significant
+
+=== Tukey HSD significance comparison for AMRscore at sample size 50 ===
+
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+===================================================
+group1 group2 meandiff p-adj  lower   upper  reject
+---------------------------------------------------
+Africa  China   0.1279   0.0  0.1134  0.1424   True
+Africa     EU  -0.4526   0.0 -0.4671 -0.4381   True
+Africa Global  -0.3568   0.0 -0.3713 -0.3423   True
+Africa    USA  -0.6298   0.0 -0.6443 -0.6153   True
+ China     EU  -0.5805   0.0  -0.595  -0.566   True
+ China Global  -0.4847   0.0 -0.4992 -0.4702   True
+ China    USA  -0.7577   0.0 -0.7722 -0.7432   True
+    EU Global   0.0958   0.0  0.0813  0.1103   True
+    EU    USA  -0.1771   0.0 -0.1916 -0.1626   True
+Global    USA  -0.2729   0.0 -0.2874 -0.2584   True
+---------------------------------------------------
+
+=== Dunn's significance boolean matrix for AMRscore at sample size 50 ===
+
+       1      2      3      4      5
+1  False   True   True   True   True
+2   True  False   True   True   True
+3   True   True  False   True   True
+4   True   True   True  False   True
+5   True   True   True   True  False
+AMRclass ANOVA results (Sample size 50): F-statistic = 17721.68394924555, p-value = 0.0 -> Significant
+AMRclass Kruskal-Wallis results (Sample size 50): H-statistic = 4570.618770143285, p-value = 0.0 -> Significant
+
+=== Tukey HSD significance comparison for AMRclass at sample size 50 ===
+
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+===================================================
+group1 group2 meandiff p-adj  lower   upper  reject
+---------------------------------------------------
+Africa  China    1.096   0.0  1.0389  1.1531   True
+Africa     EU  -2.8598   0.0 -2.9168 -2.8027   True
+Africa Global  -1.8437   0.0 -1.9008 -1.7866   True
+Africa    USA  -3.6371   0.0 -3.6942   -3.58   True
+ China     EU  -3.9558   0.0 -4.0128 -3.8987   True
+ China Global  -2.9397   0.0 -2.9968 -2.8826   True
+ China    USA  -4.7331   0.0 -4.7902  -4.676   True
+    EU Global   1.0161   0.0   0.959  1.0732   True
+    EU    USA  -0.7773   0.0 -0.8344 -0.7203   True
+Global    USA  -1.7934   0.0 -1.8505 -1.7363   True
+---------------------------------------------------
+
+=== Dunn's significance boolean matrix for AMRclass at sample size 50 ===
+
+       1      2      3      4      5
+1  False   True   True   True   True
+2   True  False   True   True   True
+3   True   True  False   True   True
+4   True   True   True  False   True
+5   True   True   True   True  False
+AMRgene ANOVA results (Sample size 50): F-statistic = 16746.165284128423, p-value = 0.0 -> Significant
+AMRgene Kruskal-Wallis results (Sample size 50): H-statistic = 4592.666768150762, p-value = 0.0 -> Significant
+
+=== Tukey HSD significance comparison for AMRgene at sample size 50 ===
+
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+===================================================
+group1 group2 meandiff p-adj  lower   upper  reject
+---------------------------------------------------
+Africa  China   2.9253   0.0  2.8141  3.0366   True
+Africa     EU  -5.0832   0.0 -5.1944 -4.9719   True
+Africa Global  -2.9603   0.0 -3.0716 -2.8491   True
+Africa    USA  -6.1607   0.0 -6.2719 -6.0494   True
+ China     EU  -8.0085   0.0 -8.1197 -7.8972   True
+ China Global  -5.8856   0.0 -5.9969 -5.7744   True
+ China    USA   -9.086   0.0 -9.1973 -8.9747   True
+    EU Global   2.1228   0.0  2.0116  2.2341   True
+    EU    USA  -1.0775   0.0 -1.1888 -0.9663   True
+Global    USA  -3.2004   0.0 -3.3116 -3.0891   True
+---------------------------------------------------
+
+=== Dunn's significance boolean matrix for AMRgene at sample size 50 ===
+
+       1      2      3      4      5
+1  False   True   True   True   True
+2   True  False   True   True   True
+3   True   True  False   True   True
+4   True   True   True  False   True
+5   True   True   True   True  False
+VFscore ANOVA results (Sample size 50): F-statistic = 3082.036749627482, p-value = 0.0 -> Significant
+VFscore Kruskal-Wallis results (Sample size 50): H-statistic = 3482.279148221168, p-value = 0.0 -> Significant
+
+=== Tukey HSD significance comparison for VFscore at sample size 50 ===
+
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+===================================================
+group1 group2 meandiff p-adj  lower   upper  reject
+---------------------------------------------------
+Africa  China   0.3872   0.0  0.3679  0.4065   True
+Africa     EU  -0.2117   0.0  -0.231 -0.1924   True
+Africa Global  -0.0745   0.0 -0.0938 -0.0553   True
+Africa    USA  -0.3456   0.0 -0.3649 -0.3263   True
+ China     EU  -0.5989   0.0 -0.6182 -0.5797   True
+ China Global  -0.4618   0.0  -0.481 -0.4425   True
+ China    USA  -0.7328   0.0 -0.7521 -0.7135   True
+    EU Global   0.1372   0.0  0.1179  0.1565   True
+    EU    USA  -0.1339   0.0 -0.1532 -0.1146   True
+Global    USA  -0.2711   0.0 -0.2903 -0.2518   True
+---------------------------------------------------
+
+=== Dunn's significance boolean matrix for VFscore at sample size 50 ===
+
+       1      2      3      4      5
+1  False   True   True   True   True
+2   True  False   True   True   True
+3   True   True  False   True   True
+4   True   True   True  False   True
+5   True   True   True   True  False
+
+=== Analysis results for sample size 100 ===
+
+AMRscore ANOVA results (Sample size 100): F-statistic = 16353.306027001168, p-value = 0.0 -> Significant
+AMRscore Kruskal-Wallis results (Sample size 100): H-statistic = 4483.3606409578915, p-value = 0.0 -> Significant
+
+=== Tukey HSD significance comparison for AMRscore at sample size 100 ===
+
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+===================================================
+group1 group2 meandiff p-adj  lower   upper  reject
+---------------------------------------------------
+Africa  China   0.1437   0.0  0.1341  0.1533   True
+Africa     EU  -0.4479   0.0 -0.4576 -0.4383   True
+Africa Global  -0.3512   0.0 -0.3609 -0.3416   True
+Africa    USA  -0.6248   0.0 -0.6345 -0.6152   True
+ China     EU  -0.5916   0.0 -0.6013  -0.582   True
+ China Global  -0.4949   0.0 -0.5046 -0.4853   True
+ China    USA  -0.7685   0.0 -0.7782 -0.7589   True
+    EU Global   0.0967   0.0  0.0871  0.1063   True
+    EU    USA  -0.1769   0.0 -0.1865 -0.1673   True
+Global    USA  -0.2736   0.0 -0.2832  -0.264   True
+---------------------------------------------------
+
+=== Dunn's significance boolean matrix for AMRscore at sample size 100 ===
+
+       1      2      3      4      5
+1  False   True   True   True   True
+2   True  False   True   True   True
+3   True   True  False   True   True
+4   True   True   True  False   True
+5   True   True   True   True  False
+AMRclass ANOVA results (Sample size 100): F-statistic = 38490.368846543744, p-value = 0.0 -> Significant
+AMRclass Kruskal-Wallis results (Sample size 100): H-statistic = 4740.313283483313, p-value = 0.0 -> Significant
+
+=== Tukey HSD significance comparison for AMRclass at sample size 100 ===
+
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+===================================================
+group1 group2 meandiff p-adj  lower   upper  reject
+---------------------------------------------------
+Africa  China   1.1139   0.0  1.0753  1.1525   True
+Africa     EU  -2.8435   0.0 -2.8821 -2.8049   True
+Africa Global  -1.8162   0.0 -1.8548 -1.7776   True
+Africa    USA  -3.6088   0.0 -3.6474 -3.5702   True
+ China     EU  -3.9574   0.0  -3.996 -3.9188   True
+ China Global    -2.93   0.0 -2.9687 -2.8914   True
+ China    USA  -4.7227   0.0 -4.7613 -4.6841   True
+    EU Global   1.0273   0.0  0.9887   1.066   True
+    EU    USA  -0.7653   0.0 -0.8039 -0.7267   True
+Global    USA  -1.7926   0.0 -1.8313  -1.754   True
+---------------------------------------------------
+
+=== Dunn's significance boolean matrix for AMRclass at sample size 100 ===
+
+       1      2      3      4      5
+1  False   True   True   True   True
+2   True  False   True   True   True
+3   True   True  False   True   True
+4   True   True   True  False   True
+5   True   True   True   True  False
+AMRgene ANOVA results (Sample size 100): F-statistic = 35346.01780450588, p-value = 0.0 -> Significant
+AMRgene Kruskal-Wallis results (Sample size 100): H-statistic = 4737.447554011823, p-value = 0.0 -> Significant
+
+=== Tukey HSD significance comparison for AMRgene at sample size 100 ===
+
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+===================================================
+group1 group2 meandiff p-adj  lower   upper  reject
+---------------------------------------------------
+Africa  China     2.97   0.0  2.8937  3.0463   True
+Africa     EU  -5.0353   0.0 -5.1116 -4.9589   True
+Africa Global  -2.9029   0.0 -2.9792 -2.8266   True
+Africa    USA  -6.0996   0.0 -6.1759 -6.0232   True
+ China     EU  -8.0053   0.0 -8.0816 -7.9289   True
+ China Global  -5.8729   0.0 -5.9492 -5.7965   True
+ China    USA  -9.0696   0.0 -9.1459 -8.9932   True
+    EU Global   2.1324   0.0  2.0561  2.2087   True
+    EU    USA  -1.0643   0.0 -1.1406  -0.988   True
+Global    USA  -3.1967   0.0  -3.273 -3.1204   True
+---------------------------------------------------
+
+=== Dunn's significance boolean matrix for AMRgene at sample size 100 ===
+
+       1      2      3      4      5
+1  False   True   True   True   True
+2   True  False   True   True   True
+3   True   True  False   True   True
+4   True   True   True  False   True
+5   True   True   True   True  False
+VFscore ANOVA results (Sample size 100): F-statistic = 6913.935422657308, p-value = 0.0 -> Significant
+VFscore Kruskal-Wallis results (Sample size 100): H-statistic = 4117.352043374322, p-value = 0.0 -> Significant
+
+=== Tukey HSD significance comparison for VFscore at sample size 100 ===
+
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+===================================================
+group1 group2 meandiff p-adj  lower   upper  reject
+---------------------------------------------------
+Africa  China   0.4087   0.0  0.3954  0.4219   True
+Africa     EU  -0.2152   0.0 -0.2285  -0.202   True
+Africa Global  -0.0658   0.0 -0.0791 -0.0526   True
+Africa    USA  -0.3419   0.0 -0.3552 -0.3287   True
+ China     EU  -0.6239   0.0 -0.6371 -0.6107   True
+ China Global  -0.4745   0.0 -0.4877 -0.4613   True
+ China    USA  -0.7506   0.0 -0.7638 -0.7373   True
+    EU Global   0.1494   0.0  0.1362  0.1626   True
+    EU    USA  -0.1267   0.0 -0.1399 -0.1134   True
+Global    USA  -0.2761   0.0 -0.2893 -0.2628   True
+---------------------------------------------------
+
+=== Dunn's significance boolean matrix for VFscore at sample size 100 ===
+
+       1      2      3      4      5
+1  False   True   True   True   True
+2   True  False   True   True   True
+3   True   True  False   True   True
+4   True   True   True  False   True
+5   True   True   True   True  False
+
+=== Analysis results for sample size 150 ===
+
+AMRscore ANOVA results (Sample size 150): F-statistic = 26647.80907789381, p-value = 0.0 -> Significant
+AMRscore Kruskal-Wallis results (Sample size 150): H-statistic = 4621.268166828672, p-value = 0.0 -> Significant
+
+=== Tukey HSD significance comparison for AMRscore at sample size 150 ===
+
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+===================================================
+group1 group2 meandiff p-adj  lower   upper  reject
+---------------------------------------------------
+Africa  China   0.1439   0.0  0.1363  0.1514   True
+Africa     EU  -0.4479   0.0 -0.4555 -0.4404   True
+Africa Global  -0.3444   0.0  -0.352 -0.3369   True
+Africa    USA  -0.6244   0.0 -0.6319 -0.6169   True
+ China     EU  -0.5918   0.0 -0.5993 -0.5843   True
+ China Global  -0.4883   0.0 -0.4958 -0.4808   True
+ China    USA  -0.7682   0.0 -0.7758 -0.7607   True
+    EU Global   0.1035   0.0   0.096   0.111   True
+    EU    USA  -0.1764   0.0  -0.184 -0.1689   True
+Global    USA    -0.28   0.0 -0.2875 -0.2724   True
+---------------------------------------------------
+
+=== Dunn's significance boolean matrix for AMRscore at sample size 150 ===
+
+       1      2      3      4      5
+1  False   True   True   True   True
+2   True  False   True   True   True
+3   True   True  False   True   True
+4   True   True   True  False   True
+5   True   True   True   True  False
+AMRclass ANOVA results (Sample size 150): F-statistic = 63174.68986519091, p-value = 0.0 -> Significant
+AMRclass Kruskal-Wallis results (Sample size 150): H-statistic = 4780.0961171928475, p-value = 0.0 -> Significant
+
+=== Tukey HSD significance comparison for AMRclass at sample size 150 ===
+
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+===================================================
+group1 group2 meandiff p-adj  lower   upper  reject
+---------------------------------------------------
+Africa  China   1.1209   0.0  1.0907  1.1511   True
+Africa     EU   -2.842   0.0 -2.8722 -2.8118   True
+Africa Global  -1.8037   0.0 -1.8339 -1.7735   True
+Africa    USA   -3.618   0.0 -3.6482 -3.5878   True
+ China     EU  -3.9629   0.0 -3.9931 -3.9327   True
+ China Global  -2.9246   0.0 -2.9548 -2.8944   True
+ China    USA  -4.7389   0.0 -4.7691 -4.7087   True
+    EU Global   1.0383   0.0  1.0081  1.0685   True
+    EU    USA   -0.776   0.0 -0.8062 -0.7458   True
+Global    USA  -1.8143   0.0 -1.8445 -1.7841   True
+---------------------------------------------------
+
+=== Dunn's significance boolean matrix for AMRclass at sample size 150 ===
+
+       1      2      3      4      5
+1  False   True   True   True   True
+2   True  False   True   True   True
+3   True   True  False   True   True
+4   True   True   True  False   True
+5   True   True   True   True  False
+AMRgene ANOVA results (Sample size 150): F-statistic = 59523.8597816599, p-value = 0.0 -> Significant
+AMRgene Kruskal-Wallis results (Sample size 150): H-statistic = 4774.585402308271, p-value = 0.0 -> Significant
+
+=== Tukey HSD significance comparison for AMRgene at sample size 150 ===
+
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+===================================================
+group1 group2 meandiff p-adj  lower   upper  reject
+---------------------------------------------------
+Africa  China   2.9694   0.0  2.9106  3.0282   True
+Africa     EU  -5.0287   0.0 -5.0875 -4.9699   True
+Africa Global  -2.8788   0.0 -2.9376   -2.82   True
+Africa    USA  -6.1079   0.0 -6.1667 -6.0491   True
+ China     EU  -7.9982   0.0  -8.057 -7.9394   True
+ China Global  -5.8483   0.0 -5.9071 -5.7894   True
+ China    USA  -9.0774   0.0 -9.1362 -9.0186   True
+    EU Global   2.1499   0.0  2.0911  2.2087   True
+    EU    USA  -1.0792   0.0  -1.138 -1.0204   True
+Global    USA  -3.2291   0.0 -3.2879 -3.1703   True
+---------------------------------------------------
+
+=== Dunn's significance boolean matrix for AMRgene at sample size 150 ===
+
+       1      2      3      4      5
+1  False   True   True   True   True
+2   True  False   True   True   True
+3   True   True  False   True   True
+4   True   True   True  False   True
+5   True   True   True   True  False
+VFscore ANOVA results (Sample size 150): F-statistic = 10944.862200943207, p-value = 0.0 -> Significant
+VFscore Kruskal-Wallis results (Sample size 150): H-statistic = 4347.187677152285, p-value = 0.0 -> Significant
+
+=== Tukey HSD significance comparison for VFscore at sample size 150 ===
+
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+===================================================
+group1 group2 meandiff p-adj  lower   upper  reject
+---------------------------------------------------
+Africa  China   0.4015   0.0   0.391  0.4119   True
+Africa     EU  -0.2136   0.0  -0.224 -0.2032   True
+Africa Global   -0.072   0.0 -0.0824 -0.0616   True
+Africa    USA   -0.342   0.0 -0.3524 -0.3316   True
+ China     EU   -0.615   0.0 -0.6254 -0.6046   True
+ China Global  -0.4734   0.0 -0.4838  -0.463   True
+ China    USA  -0.7435   0.0 -0.7539  -0.733   True
+    EU Global   0.1416   0.0  0.1312   0.152   True
+    EU    USA  -0.1284   0.0 -0.1388  -0.118   True
+Global    USA    -0.27   0.0 -0.2804 -0.2596   True
+---------------------------------------------------
+
+=== Dunn's significance boolean matrix for VFscore at sample size 150 ===
+
+       1      2      3      4      5
+1  False   True   True   True   True
+2   True  False   True   True   True
+3   True   True  False   True   True
+4   True   True   True  False   True
+5   True   True   True   True  False
+
+Process finished with exit code 0
